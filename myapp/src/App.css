@@ -1,0 +1,19 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:slateblue;
+  gap: 5rem;
+  padding: 20px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+.navbar a:hover{
+  font-size: 15px;
+  box-shadow: 1px 1px 20px white;
+  
+}

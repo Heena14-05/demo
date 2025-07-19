@@ -1,0 +1,29 @@
+:root{
+  --yellow:#F5C32C;
+  --orange:#FCA61F;
+  --gray: #788097;
+  --black:#242d49;
+  --blueCard: #DDF8FE;
+  --purple:rgb(238 210 255);
+  --boxShadow:0px 19px 60px rgb(0 0 0 / 8%);
+}
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--blueCard);
+  background-color: black;
+}
+.button{
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 11px 26px 11px 26px;
+  background-color: #FCA61F;
+}
+.button:hover{
+  background-color: white;
+  color: #FCA61F;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+}
+
